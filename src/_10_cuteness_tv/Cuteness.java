@@ -54,7 +54,15 @@ public class Cuteness implements ActionListener {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-				
+				if (e.getSource() == button ) {
+					showDucks();
+				}
+				else if(e.getSource() == button1) {
+					showFrog();
+				}
+				else {
+					showFluffyUnicorns();
+				}
 			}
 }
 
